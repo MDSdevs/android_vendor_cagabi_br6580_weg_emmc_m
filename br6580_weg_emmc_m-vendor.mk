@@ -11,6 +11,6 @@ PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/infinix/x510/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/cagabi/br6580_weg_emmc_m/overlay
 
-$(call inherit-product, vendor/infinix/x510/x510-vendor-blobs.mk)
+$(call inherit-product, vendor/cagabi/br6580_weg_emmc_m/br6580_weg_emmc_m-vendor-blobs.mk)
